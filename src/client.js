@@ -70,7 +70,7 @@ class Client {
     headers['User-Agent'] = `InterFAX Node ${this._version}`;
 
     return {
-      'host': 'rest.interfax.net',
+      'host': 'restca-sl.interfax.net',
       'path': this._path(path, params),
       'port': 443,
       'auth': `${this._credentials.username}:${this._credentials.password}`,
